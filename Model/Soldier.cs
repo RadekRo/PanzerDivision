@@ -1,5 +1,5 @@
 ﻿namespace PanzerDivision.Model;
 
-public class Infrantry
+public class Soldier
 {
 }
