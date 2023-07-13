@@ -7,7 +7,11 @@ namespace PanzerDivision
         static void Main(string[] args)
         {
             Tank tank = new Tank(GermanTanks.Tiger);
-            Console.WriteLine(tank);
+            Console.WriteLine(tank.Type);
+            if (tank.Type == GermanTanks.Tiger)
+            {
+                Console.WriteLine("This is a Tiger tank!");
+            }
         }
     }
 }

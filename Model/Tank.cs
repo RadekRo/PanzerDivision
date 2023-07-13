@@ -2,7 +2,7 @@
 
 public class Tank : Vehicle
 {
-    GermanTanks Type;
+    public GermanTanks Type;
     public Tank(GermanTanks tankType)
     {
         Type = tankType;
