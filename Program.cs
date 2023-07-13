@@ -1,10 +1,13 @@
-﻿namespace PanzerDivision
+﻿using PanzerDivision.Model;
+
+namespace PanzerDivision
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Tank tank = new Tank(GermanTanks.Tiger);
+            Console.WriteLine(tank);
         }
     }
 }

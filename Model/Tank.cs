@@ -1,0 +1,16 @@
+﻿namespace PanzerDivision.Model;
+
+public class Tank : Vehicle
+{
+    GermanTanks Type;
+    public Tank(GermanTanks tankType)
+    {
+        Type = tankType;
+    }
+
+    public override string ToString()
+    {
+        return $"This is a German tank of a type: {Type.ToString()}";
+    }
+
+}

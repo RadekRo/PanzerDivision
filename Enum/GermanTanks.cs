@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PanzerDivision.Enum
+﻿public enum GermanTanks
 {
-    internal class Class1
-    {
-    }
+    Panzer3,
+    Panzer4,
+    Tiger,
+    Panther
 }
