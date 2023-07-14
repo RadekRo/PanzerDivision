@@ -2,7 +2,6 @@
 
 public abstract class Vehicle
 {
-    private int Id { get; set; }
-    private string Name { get; set; } = string.Empty;
+    public int Id { get; set; }
     public List<Soldier> Soldiers { get; set; } = new List<Soldier>();
 }

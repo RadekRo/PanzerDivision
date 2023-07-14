@@ -6,11 +6,12 @@ public class Tank : Vehicle
     public Tank(GermanTanks tankType)
     {
         Type = tankType;
+
     }
 
     public override string ToString()
     {
-        return $"This is a German tank of a type: {Type.ToString()}";
+        return $"This is a German ({Id}) tank of a type: {Type.ToString()}";
     }
 
 }

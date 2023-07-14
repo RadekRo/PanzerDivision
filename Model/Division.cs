@@ -14,4 +14,9 @@ public class Division
         Name = name;
         Number = number;
     }
+    public void AddVehicle(Vehicle vehicle)
+    {
+        vehicle.Id = Vehicles.Count + 1;
+        Vehicles.Add(vehicle);
+    }
 }
