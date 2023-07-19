@@ -6,7 +6,8 @@ public class Tank : Vehicle
     public Tank(GermanTanks tankType)
     {
         Type = tankType;
-
+        FuelLevel = 10;
+        FuelConsumption = 10;
     }
 
     public override string ToString()

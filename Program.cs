@@ -15,9 +15,11 @@ namespace PanzerDivision
                 Console.WriteLine("This is a Tiger tank!");
             }
             Division myDivision = new("Leibstandarte Adolf Hitler", 2, "Waffen-SS");
-            myDivision.AddVehicle(tank);
+            //myDivision.AddVehicle(tank);
             myDivision.AddVehicle(tank2);
             myDivision.Meldungen();
+            tank.AddFuel(15);
+            Console.WriteLine($"fuel: {tank.GetFuelLevel()}");
         }
     }
 }
